@@ -1,0 +1,24 @@
+.wrapper{
+	height:700px;
+	width:800px;
+	margin:0px auto;
+}
+.heading{
+	height:100px;
+	width:800px;
+    background:red;
+	
+}
+
+.right_bar{
+	height:300px;
+	width:120px;
+	background-color:pink;
+	float:left;
+}
+.news{
+	height:300px;
+	width:560px;
+	background-color:white;
+	float:left;
+}
