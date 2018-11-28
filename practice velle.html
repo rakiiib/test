@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container-fluid" style="background-color:#F44336;color:#fff;height:200px;">
+  <h1>Scrollspy & Affix Example</h1>
+  <h3>Fixed navbar on scroll</h3>
+  <p>Scroll this page to see how the navbar behaves with data-spy="affix" and data-spy="scrollspy".</p>
+  <p>The navbar is attached to the top of the page after you have scrolled a specified amount of pixels, and the links in the navbar are automatically updated based on scroll position.</p>
+</div>
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" data-offset-top="00">
+
+<div class="navbar-header"><br>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <img src="taxi.jpg" height="60" width"60" class="img-rounded">
+	<img src="logo.jpg" height="60" width"80" class="img-rounded"></a><br><br>
+    </div>
+	 <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+	
+
+	<ul class="nav navbar-nav">
+  
+	<li><a href="#"><br><big><big>&nbsp;<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Home&nbsp;&nbsp;</big></big></a></li>
+    <li><a href="#"><br><big><big>&nbsp;<span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Services&nbsp;&nbsp;</big></big></a></li>
+	<li><a href="#"><br><big><big>&nbsp;<span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;Prices&nbsp;&nbsp;</big></big></a></li>
+	<li><a href="#"><br><big><big>&nbsp;<span class="glyphicon glyphicon-ok-circle"></span>&nbsp;&nbsp;Booking&nbsp;&nbsp;</big></big></a></li>
+	<li><a href="#"><br><big><big>&nbsp;<span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Contact Us...&nbsp;&nbsp;</big></big><br><br></a></li>
+  </ul>
+  </div>
+  </div>
+  
+  </div>
+</nav>
+
+
+<div id="section1" class="container-fluid">
+  
+<div class="row bg-warning">
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-10 bg-danger">
+<h3 class="text-center text-primary"><strong>Contact Us...</strong></h3>
+</div>
+<div class="col-sm-1"></div>
+</div>
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-5 bg-success">
+<h5 class="text-center"><strong><big>Offline</big></strong></h5>
+</div>
+<div class="col-sm-5 bg-info"><h5 class="text-center"><strong><big>Online</big></strong></h5></div>
+<div class="col-sm-1"></div>
+</div>
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-5 bg-success"><div class="row">
+<div class="col-sm-6"><strong><u>Contact Number :-   </u></strong><br>
+<br>Phone No.: 0172-25XXXXX<br>
+<br>Mobile No.: +9198XXXXXX09</div>
+<div class="col-sm-6"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Address :-   </u></strong><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CCET, Diploma Wing, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sector 26, Chandigarh.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pincode: 160019</div>
+</div><br><br><br></div>
+<div class="col-sm-5 bg-info">
+<div class="row">
+<div class="col-sm-6"><strong><u>Website & Location:-   </u><br><br>
+<small>Website: www.ccetdiplomawing.com<br><br>
+Email ID: ccet123@xyz.com<br></small></strong>
+</div>
+<div class="col-sm-6">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Location : Coming Soon...   </u><br><br>
+<div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13718.820773560226!2d76.8084458!3d30.7266872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x982632d2a9ae2485!2sCCET+Diploma+Wing!5e0!3m2!1sen!2sin!4v1530115571245" width="250" height="96" frameborder="0" style="border:2px solid blue"></iframe>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<br>
+</div>
+<div class="col-sm-1"></div>
+</div></div>
+
+
+
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+</body>
+</html>
